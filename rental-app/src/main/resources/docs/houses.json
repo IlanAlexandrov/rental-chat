@@ -1,0 +1,382 @@
+[
+  {
+    "city": "Tel Aviv",
+    "street": "Dizengoff St",
+    "houseNumber": 123,
+    "floor": 1,
+    "roomCount": 3,
+    "price": 2000000,
+    "area": 85,
+    "scheduleAppointment": "2024-10-18T10:00:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Rothschild Blvd",
+    "houseNumber": 456,
+    "floor": 2,
+    "roomCount": 4,
+    "price": 3000000,
+    "area": 120,
+    "scheduleAppointment": "2024-10-19T11:30:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Allenby St",
+    "houseNumber": 789,
+    "floor": 3,
+    "roomCount": 2,
+    "price": 1800000,
+    "area": 65,
+    "scheduleAppointment": "2024-10-20T09:45:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Ibn Gabirol St",
+    "houseNumber": 10,
+    "floor": 4,
+    "roomCount": 5,
+    "price": 3500000,
+    "area": 150,
+    "scheduleAppointment": "2024-10-21T14:15:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "King George St",
+    "houseNumber": 15,
+    "floor": 5,
+    "roomCount": 3,
+    "price": 2500000,
+    "area": 90,
+    "scheduleAppointment": "2024-10-22T16:30:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Herzl St",
+    "houseNumber": 20,
+    "floor": 6,
+    "roomCount": 2,
+    "price": 1900000,
+    "area": 75,
+    "scheduleAppointment": "2024-10-23T13:00:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Frishman St",
+    "houseNumber": 30,
+    "floor": 2,
+    "roomCount": 3,
+    "price": 2300000,
+    "area": 95,
+    "scheduleAppointment": "2024-10-24T10:00:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Bialik St",
+    "houseNumber": 40,
+    "floor": 3,
+    "roomCount": 4,
+    "price": 2700000,
+    "area": 110,
+    "scheduleAppointment": "2024-10-25T09:00:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Bugrashov St",
+    "houseNumber": 50,
+    "floor": 7,
+    "roomCount": 5,
+    "price": 3200000,
+    "area": 135,
+    "scheduleAppointment": "2024-10-26T12:30:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Yehuda Halevi St",
+    "houseNumber": 60,
+    "floor": 8,
+    "roomCount": 3,
+    "price": 2100000,
+    "area": 90,
+    "scheduleAppointment": "2024-10-27T11:00:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Montefiore St",
+    "houseNumber": 70,
+    "floor": 6,
+    "roomCount": 2,
+    "price": 1800000,
+    "area": 70,
+    "scheduleAppointment": "2024-10-28T15:45:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Ben Yehuda St",
+    "houseNumber": 80,
+    "floor": 5,
+    "roomCount": 4,
+    "price": 2900000,
+    "area": 120,
+    "scheduleAppointment": "2024-10-29T10:30:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Nordau Blvd",
+    "houseNumber": 90,
+    "floor": 4,
+    "roomCount": 3,
+    "price": 2400000,
+    "area": 100,
+    "scheduleAppointment": "2024-10-30T13:15:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "HaYarkon St",
+    "houseNumber": 100,
+    "floor": 9,
+    "roomCount": 5,
+    "price": 3400000,
+    "area": 140,
+    "scheduleAppointment": "2024-10-31T11:30:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Carlebach St",
+    "houseNumber": 110,
+    "floor": 2,
+    "roomCount": 4,
+    "price": 2600000,
+    "area": 105,
+    "scheduleAppointment": "2024-11-01T14:30:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Shenkin St",
+    "houseNumber": 120,
+    "floor": 3,
+    "roomCount": 3,
+    "price": 2200000,
+    "area": 90,
+    "scheduleAppointment": "2024-11-02T09:00:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Nahalat Binyamin St",
+    "houseNumber": 130,
+    "floor": 6,
+    "roomCount": 5,
+    "price": 3100000,
+    "area": 125,
+    "scheduleAppointment": "2024-11-03T15:00:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Hahashmonaim St",
+    "houseNumber": 140,
+    "floor": 7,
+    "roomCount": 4,
+    "price": 2800000,
+    "area": 115,
+    "scheduleAppointment": "2024-11-04T12:45:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Menachem Begin Rd",
+    "houseNumber": 150,
+    "floor": 8,
+    "roomCount": 2,
+    "price": 1700000,
+    "area": 60,
+    "scheduleAppointment": "2024-11-05T09:30:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Kaplan St",
+    "houseNumber": 160,
+    "floor": 5,
+    "roomCount": 3,
+    "price": 2000000,
+    "area": 85,
+    "scheduleAppointment": "2024-11-06T14:15:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Lilienblum St",
+    "houseNumber": 170,
+    "floor": 4,
+    "roomCount": 4,
+    "price": 2700000,
+    "area": 105,
+    "scheduleAppointment": "2024-11-07T13:00:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Ahad Ha'Am St",
+    "houseNumber": 180,
+    "floor": 3,
+    "roomCount": 5,
+    "price": 3300000,
+    "area": 130,
+    "scheduleAppointment": "2024-11-08T12:00:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Hess St",
+    "houseNumber": 190,
+    "floor": 2,
+    "roomCount": 2,
+    "price": 1900000,
+    "area": 70,
+    "scheduleAppointment": "2024-11-09T09:45:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Ben Gurion Blvd",
+    "houseNumber": 200,
+    "floor": 6,
+    "roomCount": 4,
+    "price": 2800000,
+    "area": 115,
+    "scheduleAppointment": "2024-11-10T10:15:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Florentin St",
+    "houseNumber": 210,
+    "floor": 7,
+    "roomCount": 3,
+    "price": 2100000,
+    "area": 95,
+    "scheduleAppointment": "2024-11-11T15:00:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Hakfar Hayarok St",
+    "houseNumber": 220,
+    "floor": 9,
+    "roomCount": 2,
+    "price": 1800000,
+    "area": 70,
+    "scheduleAppointment": "2024-11-12T13:45:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Rabin Square",
+    "houseNumber": 230,
+    "floor": 8,
+    "roomCount": 5,
+    "price": 3200000,
+    "area": 140,
+    "scheduleAppointment": "2024-11-13T16:00:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "HaMasger St",
+    "houseNumber": 240,
+    "floor": 1,
+    "roomCount": 4,
+    "price": 2600000,
+    "area": 105,
+    "scheduleAppointment": "2024-11-14T09:30:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Levinsky St",
+    "houseNumber": 250,
+    "floor": 3,
+    "roomCount": 3,
+    "price": 2400000,
+    "area": 100,
+    "scheduleAppointment": "2024-11-15T11:15:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Salame St",
+    "houseNumber": 260,
+    "floor": 2,
+    "roomCount": 2,
+    "price": 1700000,
+    "area": 65,
+    "scheduleAppointment": "2024-11-16T10:00:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Yigal Alon St",
+    "houseNumber": 270,
+    "floor": 7,
+    "roomCount": 4,
+    "price": 2900000,
+    "area": 130,
+    "scheduleAppointment": "2024-11-17T14:00:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Eilat St",
+    "houseNumber": 280,
+    "floor": 6,
+    "roomCount": 5,
+    "price": 3100000,
+    "area": 125,
+    "scheduleAppointment": "2024-11-18T15:30:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Jerusalem Blvd",
+    "houseNumber": 290,
+    "floor": 4,
+    "roomCount": 3,
+    "price": 2200000,
+    "area": 90,
+    "scheduleAppointment": "2024-11-19T10:45:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Jabotinsky St",
+    "houseNumber": 300,
+    "floor": 5,
+    "roomCount": 5,
+    "price": 3400000,
+    "area": 140,
+    "scheduleAppointment": "2024-11-20T12:00:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Namir Rd",
+    "houseNumber": 310,
+    "floor": 9,
+    "roomCount": 4,
+    "price": 2700000,
+    "area": 115,
+    "scheduleAppointment": "2024-11-21T09:15:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Yitzhak Sadeh St",
+    "houseNumber": 320,
+    "floor": 8,
+    "roomCount": 3,
+    "price": 2400000,
+    "area": 100,
+    "scheduleAppointment": "2024-11-22T13:30:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Haim Levanon St",
+    "houseNumber": 330,
+    "floor": 6,
+    "roomCount": 2,
+    "price": 2000000,
+    "area": 85,
+    "scheduleAppointment": "2024-11-23T10:15:00"
+  },
+  {
+    "city": "Tel Aviv",
+    "street": "Raoul Wallenberg St",
+    "houseNumber": 340,
+    "floor": 3,
+    "roomCount": 5,
+    "price": 3300000,
+    "area": 130,
+    "scheduleAppointment": "2024-11-24T11:30:00"
+  }
+]

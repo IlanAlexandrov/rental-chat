@@ -1,7 +1,9 @@
 package com.rental.rental_app.service;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.rental.rental_app.entity.RentalHouse;
-import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
@@ -17,22 +19,16 @@ import java.util.List;
 @RequiredArgsConstructor
 public class RentalHouseGeneratorService {
 
-	private final RentalHouseService rentalHouseRepository;
 
-	@Value("classpath:/docs/houses.st")
+	@Value("classpath:/docs/houses.json")
 	private Resource houseFile;
 
 
-	public void loadRentalHousesFromFile() throws IOException {
-		List<RentalHouse> rentalHouses = new ArrayList<>();
-		try (BufferedReader reader = new BufferedReader(new InputStreamReader(houseFile.getInputStream()))) {
-			String line;
-			while ((line = reader.readLine()) != null) {
-				RentalHouse rentalHouse = parseLineToRentalHouse(line);
-				rentalHouses.add(rentalHouse);
-			}
-			rentalHouseRepository.saveHouses(rentalHouses);
-		}
+	public List<RentalHouse> loadRentalHousesFromFile() throws IOException {
+		ObjectMapper objectMapper = new ObjectMapper();
+		objectMapper.registerModule(new JavaTimeModule());
+		return objectMapper.readValue(houseFile.getInputStream(), new TypeReference<>() {
+		});
 	}
 
 	private RentalHouse parseLineToRentalHouse(String line) {
@@ -62,6 +58,7 @@ public class RentalHouseGeneratorService {
 				case "area":
 					rentalHouse.setArea(Integer.parseInt(keyValue[1].trim()));
 					break;
+
 			}
 		}
 		return rentalHouse;
