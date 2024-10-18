@@ -1,11 +1,12 @@
--- MySQL: Create rental_house table in the 'rental' database
-CREATE TABLE IF NOT EXISTS rental_house (
-                                            id INT AUTO_INCREMENT PRIMARY KEY,
-                                            city VARCHAR(255),
-                                            street VARCHAR(255),
-                                            house_number INT,
-                                            floor INT,
-                                            room_count INT,
-                                            price INT,
-                                            area INT
+CREATE EXTENSION IF NOT EXISTS vector;
+CREATE EXTENSION IF NOT EXISTS hstore;
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
+CREATE TABLE IF NOT EXISTS vector_store (
+                                            id uuid DEFAULT uuid_generate_v4() PRIMARY KEY,
+                                            content text,
+                                            metadata json,
+                                            embedding vector(1536)  -- 1536 is the default embedding dimension
 );
+
+CREATE INDEX ON vector_store USING HNSW (embedding vector_cosine_ops);

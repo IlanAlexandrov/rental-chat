@@ -9,8 +9,8 @@ import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity()
-@Table(name = "token_history")
+import java.time.LocalDateTime;
+
 @Getter
 @Setter
 public class RentalHouse {
@@ -25,4 +25,5 @@ public class RentalHouse {
 	private int roomCount;
 	private int price;
 	private int area;
+	private LocalDateTime scheduleAppointment;
 }
